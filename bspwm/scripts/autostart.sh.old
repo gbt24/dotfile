@@ -1,0 +1,14 @@
+#!/bin/bash
+
+
+arr=("sxhkd" "xfce4-power-manager &" "fcitx5 &" "dunst &" "picom &" "conky" "~/.config/bspwm/bin/bspbar &" "~/scripts/lightson+ &" 
+	"nm-applet &")
+
+for value in ${arr[@]}
+do
+    isExist=`ps -ef | grep "$value" | grep -v grep | wc -l`
+    if [ $isExist == 0 ]
+    then
+        exec "$value" &
+    fi
+done
