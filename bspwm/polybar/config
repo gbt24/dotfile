@@ -52,10 +52,10 @@ module-margin-right = 1
 
 
 font-0 = "FiraCode Nerd Font:size=13;3"
-font-1 = "FiraCode Nerd Font:size=12;3"
+font-1 = "FiraCode Nerd Font:size=13;3"
 font-2 = NotoColorEmoji:pixelsize=8;1:fontformat=truetype:scale=10:antialias=true;3
-font-3 = Weather Icons:style=Regular:size=10;3
-font-4 = NotoSansCJK:size=12;2
+font-3 = Weather Icons:style=Regular:size=13;3
+font-4 = NotoSansCJK:size=13;2
 
 
 modules-left = bspwm mod
@@ -338,19 +338,19 @@ label-charging = %percentage%%
 label-discharging = %percentage%%
 label-full = %percentage%%
 
-ramp-capacity-0 = 
-ramp-capacity-1 = 
-ramp-capacity-2 = 
-ramp-capacity-3 = 
-ramp-capacity-4 = 
+ramp-capacity-0 = " "
+ramp-capacity-1 = " "
+ramp-capacity-2 = " "
+ramp-capacity-3 = " "
+ramp-capacity-4 = " "
 ramp-capacity-font = 2
 ramp-capacity-foreground = ${color.YELLOW}
 
-animation-charging-0 = 
-animation-charging-1 = 
-animation-charging-2 = 
-animation-charging-3 = 
-animation-charging-4 = 
+animation-charging-0 = " " 
+animation-charging-1 = " "
+animation-charging-2 = " "
+animation-charging-3 = " "
+animation-charging-4 = " "
 animation-charging-font = 2
 animation-charging-foreground = ${color.GREEN}
 animation-charging-framerate = 750
